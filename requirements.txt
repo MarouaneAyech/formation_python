@@ -1,0 +1,13 @@
+numpy
+pandas
+sympy
+matplotlib
+seaborn
+dash
+plotly
+scikit-learn
+statsmodels
+Flask
+Flask-Bcrypt
+SQLAlchemy
+
