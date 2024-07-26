@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Inscription{% endblock %}
+
+{% block content %}
+<h2>Inscription</h2>
+{% if error %}
+<p style="color: red;">{{ error }}</p>
+{% endif %}
+<!-- <div id="login-error" style="color: red;">
+    <!-- Le message d'erreur s'affichera ici -->
+</div> -->
+<form method="POST">
+<!-- <form method="POST" hx-post="{{ url_for('main.register') }}" hx-trigger="submit" hx-target="#login-error" hx-swap="innerHTML"> -->
+    <label for="login">Login :</label><br>
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" required><br>
+    <label for="login">Login :</label><br>
+    <input type="text" id="login" name="login"><br>
+    <label for="password">Mot de passe :</label><br>
+    <input type="password" id="password" name="password"><br>
+    <label for="ville">Ville :</label><br>
+    <input type="text" id="ville" name="ville"><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

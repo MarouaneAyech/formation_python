@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mon Application{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- <script src="https://unpkg.com/htmx.org@^1.7.0/dist/htmx.min.js" integrity="sha384-v5k7it63jsfNLd9Hs6sEi4oEO5bszqz1ajV/lzTyoLHQ3OsXcgkr5RVm4L/EeO3N" crossorigin="anonymous"></script> -->
+    <script src="https://unpkg.com/htmx.org@1.6.1"></script>
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Bienvenue à Mon Application</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('main.login') }}">Login</a></li>
+                <li><a href="{{ url_for('main.register') }}">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Application. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
