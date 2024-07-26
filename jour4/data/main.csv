@@ -1,0 +1,65 @@
+id_produit,id_temps,puht,quantite_vendue,date,categorie,nom
+1,1,1000,15,2023-01-01,smartphone,iPhone
+1,2,1100,14,2023-02-01,smartphone,iPhone
+1,3,1200,16,2023-03-01,smartphone,iPhone
+1,4,1250,15,2023-04-01,smartphone,iPhone
+1,5,1300,16,2023-05-01,smartphone,iPhone
+1,6,1400,17,2023-06-01,smartphone,iPhone
+1,7,1500,15,2023-07-01,smartphone,iPhone
+1,8,1550,16,2023-08-01,smartphone,iPhone
+1,9,1650,17,2023-09-01,smartphone,iPhone
+1,10,1750,18,2023-10-01,smartphone,iPhone
+1,11,1850,20,2023-11-01,smartphone,iPhone
+1,12,1900,19,2023-12-01,smartphone,iPhone
+2,1,600,10,2023-01-01,smartphone,Samsung
+2,2,650,9,2023-02-01,smartphone,Samsung
+2,3,700,11,2023-03-01,smartphone,Samsung
+2,4,750,10,2023-04-01,smartphone,Samsung
+2,5,800,11,2023-05-01,smartphone,Samsung
+2,6,850,12,2023-06-01,smartphone,Samsung
+2,7,900,10,2023-07-01,smartphone,Samsung
+2,8,950,11,2023-08-01,smartphone,Samsung
+2,9,1000,12,2023-09-01,smartphone,Samsung
+2,10,1050,13,2023-10-01,smartphone,Samsung
+2,11,1100,15,2023-11-01,smartphone,Samsung
+2,12,1150,14,2023-12-01,smartphone,Samsung
+3,1,400,20,2023-01-01,smartphone,Oppo
+3,2,450,19,2023-02-01,smartphone,Oppo
+3,3,500,21,2023-03-01,smartphone,Oppo
+3,4,550,20,2023-04-01,smartphone,Oppo
+3,5,600,21,2023-05-01,smartphone,Oppo
+3,6,650,22,2023-06-01,smartphone,Oppo
+3,7,700,20,2023-07-01,smartphone,Oppo
+3,8,750,21,2023-08-01,smartphone,Oppo
+3,9,800,22,2023-09-01,smartphone,Oppo
+3,10,850,23,2023-10-01,smartphone,Oppo
+3,11,900,25,2023-11-01,smartphone,Oppo
+3,12,950,24,2023-12-01,smartphone,Oppo
+4,1,1200,10,2023-01-01,electromenager,TV
+4,2,1250,11,2023-02-01,electromenager,TV
+4,3,1300,9,2023-03-01,electromenager,TV
+4,4,1350,10,2023-04-01,electromenager,TV
+4,5,1400,8,2023-05-01,electromenager,TV
+4,6,1450,9,2023-06-01,electromenager,TV
+4,7,1500,11,2023-07-01,electromenager,TV
+4,8,1550,10,2023-08-01,electromenager,TV
+5,1,150,5,2023-01-01,electromenager,Decodeur
+5,2,160,6,2023-02-01,electromenager,Decodeur
+5,3,170,4,2023-03-01,electromenager,Decodeur
+5,4,180,5,2023-04-01,electromenager,Decodeur
+5,5,190,3,2023-05-01,electromenager,Decodeur
+5,6,200,4,2023-06-01,electromenager,Decodeur
+5,7,210,6,2023-07-01,electromenager,Decodeur
+5,8,220,5,2023-08-01,electromenager,Decodeur
+6,9,900,8,2023-09-01,PC portable,Asus
+6,10,950,9,2023-10-01,PC portable,Asus
+6,11,1000,10,2023-11-01,PC portable,Asus
+6,12,1050,9,2023-12-01,PC portable,Asus
+7,9,1000,9,2023-09-01,PC portable,HP
+7,10,1050,10,2023-10-01,PC portable,HP
+7,11,1100,11,2023-11-01,PC portable,HP
+7,12,1150,10,2023-12-01,PC portable,HP
+8,9,950,10,2023-09-01,PC portable,Dell
+8,10,1000,11,2023-10-01,PC portable,Dell
+8,11,1050,12,2023-11-01,PC portable,Dell
+8,12,1100,11,2023-12-01,PC portable,Dell
