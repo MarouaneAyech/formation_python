@@ -1,3 +1,5 @@
+# Description
+
 Le repo contient le code de la formation réparti en 5 jours :
 - Jour 1 : Les fondamentaux de Python + Bonne pratiques
 - Jour 2 : Les bibliothèques Numpy, Sympy, Pandas, Matplotlib et Dash-Plotly (Dévéloppement de Tableau de bord)
