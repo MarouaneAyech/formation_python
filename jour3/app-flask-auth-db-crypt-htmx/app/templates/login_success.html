@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Login réussi{% endblock %}
+{% block header %}
+<nav>
+    <ul>
+        <li><a href="{{ url_for('main.logout') }}">Logout</a></li>
+        <li><a href="{{ url_for('main.produit') }}">Gérer les produits</a></li>
+    </ul>
+</nav>
+{% endblock %}
+{% block content %}
+<h2>Login réussi {{ user.nom }} !</h2>
+<p>Bienvenue sur votre compte.</p>
+{% endblock %}

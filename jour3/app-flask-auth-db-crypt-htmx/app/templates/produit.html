@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Gestion de produits{% endblock %}
+
+{% block header %}
+    <p><a href="{{ url_for('main.logout') }}">Logout</a></p>
+{% endblock %}
+
+{% block content %}
+
+<h2>Ajouter un produit :</h2>
+<form id="produit-form" hx-post="{{ url_for('main.produit') }}" 
+        hx-target="#produits-table" hx-swap="innerHTML">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required><br>
+    <label for="categorie">Catégorie :</label>
+    <select id="categorie" name="categorie" required>
+        <option value="smartphone">Smartphone</option>
+        <option value="electromenager">Électroménager</option>
+        <option value="pc_portable">PC Portable</option>
+    </select><br>
+    <button type="submit">Ajouter</button>
+</form>
+
+<div id="produits-table">
+    {% include "produits_table.html" %}
+</div>
+
+{% endblock %}

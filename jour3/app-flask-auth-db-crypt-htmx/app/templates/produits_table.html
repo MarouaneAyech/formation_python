@@ -1,0 +1,21 @@
+{% if produits %}
+    <h2>Liste des produits</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Catégorie</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for produit in produits %}
+            <tr>
+                <td>{{ produit.nom }}</td>
+                <td>{{ produit.categorie }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <h2 style="color:red">Pas de produits produits</h2>
+{% endif %}
