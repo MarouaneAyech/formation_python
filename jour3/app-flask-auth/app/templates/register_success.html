@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription réussie</title>
+</head>
+<body>
+    <h2>Inscription réussie !</h2>
+    <p>Bienvenue, {{ user.nom }} !</p>
+    <p>Vos informations ont été enregistrées :</p>
+    <ul>
+        <li>Login : {{ user.login }}</li>
+        <li>Ville : {{ user.ville }}</li>
+    </ul>
+    <p><a href="{{ url_for('main.logout') }}">Logout</a></p>
+</body>
+</html>
