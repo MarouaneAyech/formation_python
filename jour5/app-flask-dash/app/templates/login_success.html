@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+{% block header %}
+<nav>
+    <ul>
+        <li><a href="{{ url_for('main.logout') }}">Logout</a></li>
+        <li><a href="{{ url_for('main.produit') }}">Gérer les produits</a></li>
+        <li><a href="{{ url_for('main.dashboard') }}">Tableau de bord</a></li>
+    </ul>
+</nav>
+{% endblock %}
+{% block content %}
+<h2>Welcome {{ user.nom }} !</h2>
+{% endblock %}

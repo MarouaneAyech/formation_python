@@ -1,0 +1,86 @@
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.stats-container {
+    margin-bottom: 20px;
+    padding: 20px; /* Espace intérieur */
+    border-radius: 5px; /* Bordures arrondies */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    border: 1px solid #ccc; /* Contour du conteneur */
+}
+
+.stats-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.stats-pie, .stats-bar {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.stats-pie, .stats-bar {
+    margin-bottom: 20px;
+}
+
+.stats-bar {
+    padding-top: 20px;
+}
+
+/* Styles pour les graphiques */
+.stats-pie .plotly-graph {
+    height: 350px;
+}
+
+.stats-bar .plotly-graph {
+    height: 350px;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+.line-chart {
+    width: 100%;
+}
+
+.raw-data-container {
+    margin-top: 20px;
+}
+
+/* Media queries pour la mise en page responsive */
+@media (max-width: 768px) {
+    .stats-pie, .stats-bar {
+        width: 100%;
+    }
+}
+
+.section-title{
+    text-align: center
+}
+
+.dashboard-title{
+    color: white; /* Couleur du texte en blanc */
+    background-color: blue; /* Couleur de fond en bleu */
+    padding: 20px; /* Ajout d'un peu de padding pour l'esthétique */
+    border-radius: 5px; /* Coins arrondis optionnels */
+    text-align: center; /
+}

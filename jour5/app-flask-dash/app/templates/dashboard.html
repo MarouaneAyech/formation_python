@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+{% block stylesheets %}
+<!-- <link rel="stylesheet" href="/dash_app/assets/style.css"> -->
+{% endblock %}
+{% block header %}
+    <p><a href="{{ url_for('main.logout') }}">Logout</a></p>
+    <p><a href="{{ url_for('main.home') }}">Home</a></p>
+{% endblock %}
+{% block content %}
+    {{ dash_layout | safe }}
+{% endblock %}
